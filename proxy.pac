@@ -15,7 +15,8 @@ function FindProxyForURL(url, host) {
   var domain = getDomain(host);
 
   if (domains.indexOf(domain) !== -1) {
-    return "HTTPS proxy-ssl.antizapret.prostovpn.org:3143; PROXY proxy-nossl.antizapret.prostovpn.org:29976; DIRECT";
+    return "HTTPS proxy-fbtw-ssl.antizapret.prostovpn.org:3143; DIRECT";
+      //return "HTTPS proxy-ssl.antizapret.prostovpn.org:3143; PROXY proxy-nossl.antizapret.prostovpn.org:29976; DIRECT";
   }
 
   return "DIRECT";

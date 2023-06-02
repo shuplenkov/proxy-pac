@@ -1,4 +1,4 @@
-var domains = ['openai.com', 'twimg.com', 'www.themoviedb.org'];
+var domains = ['openai.com', 'twimg.com'];
 
 function FindProxyForURL(url, host) {
   for (var i= 0; i < domains.length; i++) {
